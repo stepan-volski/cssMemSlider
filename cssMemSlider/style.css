@@ -3,12 +3,10 @@ body {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-
-    /* font-size: 10px; */
 }
 
 .slider-container {
-    width: 300px;
+    width: 450px;
     overflow: hidden;
     background-color: #25282a;
     padding: 15px;
@@ -30,8 +28,7 @@ body {
 }
 
 .slide-container img {
-    width: 300px;
-    height: 300px;
+    width: 450px;
     border-radius: 10px;
 }
 
@@ -65,3 +62,24 @@ body {
 /* blue color: #71abfe
   black color: #25282a
   white: #fefefe */
+
+
+
+  @media (max-width: 420px) {
+
+    .slider-container {
+        width: 300px;
+    }
+    
+    .slide-container img {
+        width: 300px;
+        height: 300px;
+        padding-bottom: 25px;
+    }
+    
+    .controls {
+        right: 140px;
+        bottom: 50px;
+    }
+
+}
