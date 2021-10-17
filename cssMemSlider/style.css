@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-container {
+    width: 300px;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.slides img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
